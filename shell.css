@@ -1,0 +1,61 @@
+body {font-family: Lucida Granade, Verdana, Arial, sans-serif; color: black; background: white;}
+table.main{width: 600px; height: 300px; border: 1px #000000 solid; padding: 0px; margin: 0px;}
+td.head{background-color: #529ADE; color: #FFFFFF; font-weight:700; border: none; 
+	text-align: center; font-style: italic; font-size:12px;}
+td.head_x{background-color: #529ADE; color: #000000; font-weight:700; border: none; 
+	text-align: left; font-size:14px;}
+}
+a.href{font-size:70%;}
+
+.ddm1 {
+    font-size: 12px;
+font-family: Lucida Granade, Verdana, Arial, sans-serif;
+}
+.ddm1 .item1,
+.ddm1 .item1:hover,
+.ddm1 .item1-active,
+.ddm1 .item1-active:hover {
+    padding: 3px 8px 4px 8px;
+    border: 1px #003366;
+    border-style: solid none solid none;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.ddm1 .item1 {
+    background: #CCCCCC; /*#0EA138;*/
+    color: #000000;
+}
+.ddm1 .item1:hover,
+.ddm1 .item1-active,
+.ddm1 .item1-active:hover {
+    background: #529ADE;
+    color: #ffffff;
+}
+.ddm1 .item2,
+.ddm1 .item2:hover {
+    padding: 3px 8px 4px 8px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+}
+.ddm1 .item2 {
+    background: #CCCCCC;
+    color: #000000;
+}
+.ddm1 .item2:hover {
+    background: #529ADE;
+    color: #ffffff;
+}
+.ddm1 .section {
+    border: 1px #003366;
+    border-style: solid solid solid solid;
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+    white-space: nowrap;
+}
+.ddm1 .left, .ddm1 .left:hover { border-style: solid none solid solid; }
+.ddm1 .right, .ddm1 .right:hover { border-style: solid solid solid none; }
+
+* html .ddm1 td { position: relative; } 
